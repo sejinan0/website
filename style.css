@@ -167,16 +167,16 @@ body {
 /* Projects */
 #projects {
   background-color: #f4f4f4 !important;
-  height: 90%;
+  height: 100%;
 }
 
 .container-fluid.projects-all{
-  padding: 6% 6%;
+  padding: 6% 6% 10%;
 }
 
 .carousel {
-  height: 70%;
-  padding: 3rem 0 0;
+  height: 85%;
+  padding-top: 3rem;
 }
 
 .carousel-inner .carousel-frame, .carousel-inner{

@@ -1,0 +1,228 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #050505 !important;
+}
+
+.white-font {
+  color: white !important;
+}
+
+.grey-font {
+  color: #9c9c9c;
+}
+
+.dark-grey-font {
+  color: #2a2a2a;
+}
+
+.black-font {
+  color: black;
+}
+
+.rounded-corners {
+  border-radius: 20%;
+}
+
+/* Header */
+.bg-video {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.container-fluid.header-text {
+  z-index: 1;
+  padding: 0 6%;
+}
+
+
+.main-title-text {
+  position: relative;
+}
+
+.title {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+  font-size: 3.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.subsubtitle {
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.light-font {
+  font-weight: lighter;
+}
+
+/* Medium size screen support */
+@media (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .title.title-second-row {
+    font-size: 3.5rem;
+  }
+  .bg-video {
+    width: 1100px;
+  }
+}
+
+/* Small size screen support */
+@media (max-width: 800px) {
+  .title {
+    font-size: 3.5rem;
+    line-height: 3rem;
+  }
+  .title.title-second-row {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+  .bg-video {
+    width: 800px;
+  }
+}
+
+.header-all {
+  width: 100%;
+  position: fixed;
+}
+
+/* Button Classes */
+.btn.btn-circular{
+  height: 45px;
+  line-height: 30px;
+  width: 140px;
+  border-radius: 1000px;
+  font-size: 0.8rem;
+}
+
+.btn.btn-white {
+  background-color: white;
+}
+
+.btn-white:hover {
+  color: white !important;
+  background-color: #242424 !important;
+}
+
+.btn.btn-end-left {
+  width: 50%;
+  margin: 8% 0 10% 40%;
+}
+
+.btn.btn-end-right {
+  width: 50%;
+  margin: 8% 40% 10% 0;
+}
+
+/* Navigation Bar */
+.nav-link {
+  font-size: 0.8rem !important;
+  padding: 0.5rem 1.5rem !important;
+  text-align: right;
+  color: black;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.fa-circle-chevron-down {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.navbar {
+  padding: 25px 3% !important;
+  z-index: 10;
+}
+
+/* About Me */
+
+.container-fluid.about-all  {
+  padding: 6%;
+  background-color: #0f0f0f;
+  margin-top: 100%;
+}
+
+.about-me-text {
+  line-height: 1.6rem;
+}
+
+.about-all {
+  margin-top: 100%;
+}
+
+.about-picture {
+  width: 90%;
+}
+
+/* Projects */
+#projects {
+  background-color: #f4f4f4 !important;
+  height: 90%;
+}
+
+.container-fluid.projects-all{
+  padding: 6% 6%;
+}
+
+.carousel {
+  height: 70%;
+  padding: 3rem 0 0;
+}
+
+.carousel-inner .carousel-frame, .carousel-inner{
+  height: 100%;
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+
+.project-img {
+  width: 85%;
+}
+
+/* Contact */
+#contact {
+  height: 40%;
+  min-height: 0;
+}
+
+.container-fluid.contact-all{
+  padding: 6% 6%;
+}
+
+
+.nav-item .active {
+  text-decoration: underline;
+}
+
+.wrapper {
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.panel {
+    position: relative;
+    min-height:70%;
+    width:100%;
+    z-index:1000;
+}
+
+.carousel-frame {
+  height: 20rem;
+}
+
+.copyright-text {
+  bottom: 0;
+}

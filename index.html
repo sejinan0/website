@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sejin An</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8c92dffa26.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body class="wrapper" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!-- Navbar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md fixed-top">
+
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fa-solid fa-circle-chevron-down"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link white-font" href="#about-me">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link white-font" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link white-font" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <!-- Header -->
+  <div class="header-all" id="header">
+    <video loop muted autoplay src="backgroundfinal.mp4" preload="auto" class="bg-video"></video>
+    <div class="container-fluid header-text">
+      <div class="row">
+        <div class="col main-title-text col col-md-12">
+          <h1 class="white-font title">Hi, I'm Sejin An</h1>
+          <h1 class="white-font title title-second-row">a CS major at UC Berkeley</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-8 col-lg-5 subtitle-div">
+          <p class="grey-font light-font">Welcome to my website! Scroll down to get to learn more about me and some of the cool projects I've worked on.</p>
+        </div>
+      </div>
+      <a class="btn btn-white btn-circular" href="#about-me">LEARN MORE <i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+  </div>
+
+  <!-- About me -->
+  <div class="container-fluid about-all panel" id="about-me">
+    <div class="row">
+      <div class="col col-md-6">
+        <img src="images/profile.jpg" class="rounded-corners about-picture"/>
+      </div>
+      <div class="col-md-6 about-me-text">
+        <h2 class="white-font subtitle">About Me</h2>
+        <p class="grey-font light-font">
+          Hello! My name's Sejin An (pronounced 'say-jin'), and I'm currently studying computer science at UC Berkeley.
+          My passions within computer science are always evolving, so I'm very open to exploring all there is
+          to this field. But as of now, I'm super interested in software development and real-world artificial
+          intelligence applications. In my free time, I enjoy solving sudoku puzzles, playing boardgames, and
+          cooking (or at least trying to)!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div class="container-fluid projects-all panel" id="projects">
+    <h2 class="subtitle">Projects</h2>
+    <p>Below is a selection of the projects that I've worked on. A few projects stem from my college
+      coursework, while others are personal projects I created just for fun. If you'd like to see the source
+      code, feel free to contact me and I'll be happy to send them your way!</p>
+    <div id="project-carousel" class="carousel slide project-carousel-all carousel-dark" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-frame active" data-bs-interval="5000">
+          <div class="row">
+            <div class="col col-md-4">
+              <img src="images/website_screenshot.png" class="rounded-corners project-img"/>
+            </div>
+            <div class="col-md-8">
+              <h1 class="subsubtitle">This Website!</h1>
+              <ul>
+                <li>Developed my personal website from scratch using HTML, CSS, and JavaScript
+                </li>
+                <li>
+                  Utilized libraries and toolkits such as jQuery and Bootstrap
+                </li>
+                <li>
+                  I think it's pretty cool (and hopefully you do too 🤞)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-frame" data-bs-interval="5000">
+          <div class="row">
+            <div class="col col-md-4">
+              <img src="images/gitlet_image.png" class="rounded-corners project-img"/>
+            </div>
+            <div class="col-md-8">
+              <h1 class="subsubtitle">Gitlet</h1>
+              <ul>
+                <li>Designed a local version control system in Java that mimics the basic
+                  functionality of Git, with functions such as init, add, commit, checkout,
+                  status, rm, log, find, branch, reset, and merge
+                </li>
+                <li>
+                  Utilized a tree-based data structure that employs SHA-1 encryption to store and manage the files within a
+                  user-defined repository to replicate Git’s hash-based storage system
+                </li>
+                <li>
+                  Applied object-oriented principles such as abstraction, polymorphism,
+                  and inheritance to facilitate the debugging process and enhance code readability
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-frame" data-bs-interval="5000">
+          <div class="row">
+            <div class="col col-md-4">
+              <img src="images/ataxx_image.png" class="rounded-corners project-img"/>
+            </div>
+            <div class="col-md-8">
+              <h1 class="subsubtitle">Ataxx AI</h1>
+              <ul>
+                <li>Developed a program in Java which simulates the game of Ataxx, a two-player strategy board game,
+                  with customizable features and starting options of varying difficulty levels
+                </li>
+                <li>
+                  Added a player versus AI mode, which was implemented through a minimax algorithm for an
+                  adversarial agent that maximized the AI’s probability of winning the game, with a 95% win rate
+                </li>
+                <li>
+                  Utilized RegEx and classes such as InputStreamReader and BufferedReader from the Java.io package
+                  to parse the user’s input and execute the corresponding commands within the game
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-frame" data-bs-interval="5000">
+          <div class="row">
+            <div class="col col-md-4">
+              <img src="images/rrr_image.png" class="rounded-corners project-img"/>
+            </div>
+            <div class="col-md-8">
+              <h1 class="subsubtitle">Relevant Record Recommender</h1>
+              <ul>
+                <li>Designed a program in Python which recommends three songs based on the user’s location,
+                  weather, time, and date by using the Spotify API
+                </li>
+                <li>
+                  Constructed an algorithm to generate unique queries that suit the user’s current environment
+                  and retrieve data from the API (e.g. user has rain → recommend moody, slow-paced music)
+                </li>
+                <li>
+                  Integrated the Spotipy library to assist with the usage of OAuth2 for authentication and facilitate
+                  submitting requests to the Spotify API in Python
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-frame" data-bs-interval="5000">
+          <div class="row">
+            <div class="col col-md-4">
+              <img src="images/scheme_image.png" class="rounded-corners project-img"/>
+            </div>
+            <div class="col-md-8">
+              <h1 class="subsubtitle">Scheme Interpreter</h1>
+              <ul>
+                <li>Developed a command-line interpreter for the language Scheme (a dialect of Lisp) in Python by
+                  employing a recursive descent parser
+                </li>
+                <li>
+                  Utilized lexical and syntactic analysis to tokenize the input, allowing the interpreter to evaluate
+                  dynamically scoped procedures, lambda expressions, special forms, built-in functions, and more
+                </li>
+                <li>
+                  Optimized the space complexity to O(1) by modifying all procedures to be tail recursive
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="container-fluid contact-all panel bg-black" id="contact">
+    <h2 class="white-font subtitle">Contact</h2>
+    <div class="row">
+      <div class="col">
+        <a class="btn btn-white btn-circular btn-end-left" href="mailto:sejinan@berkeley.edu" target="_blank"><i class="fa-solid fa-envelope"></i>  EMAIL</a>
+      </div>
+      <div class="col">
+        <a class="btn btn-white btn-circular btn-end-right" href="https://www.linkedin.com/in/sejinan/" target="_blank"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a>
+      </div>
+    </div>
+    <p class="dark-grey-font light-copyright-text" id="copyright-message"></p>
+  </div>
+
+  <!-- Javascript and JQuery Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
